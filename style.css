@@ -1,0 +1,100 @@
+h3{
+    border:solid;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content:space-evenly; 
+}
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    text-align: center;
+    /* border-radius: 50px ; */
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+.title{
+    justify-content: center;
+}
+img{
+    justify-content: center;
+    border:solid;
+}
+.head{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* border-radius:25px; */
+}
+.flying{
+    text-align: center;
+}
+.bg{
+    border:solid;
+    position:relative;
+}
+.bg h1{
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.bg p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.text{
+    color:lawngreen;
+}
+.referals{
+    background-color:aquamarine;
+    font-size:20px;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+body{
+    background-color:lightcyan; 
+    margin:0px;
+}
+.origamies img{
+    border-radius:25px;
+    background-color: #ffffff;
+    opacity: 10;
+}
+.item{
+    position:relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+a:link{
+    color:rgb(255, 1, 1);
+}
+a:visited{
+    color:black
+}
